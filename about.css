@@ -1,0 +1,21 @@
+body {
+	background-color: rgba(134, 244, 218, 0.53);
+}
+.nav__list li:hover .nav__link {
+    color: rgb(14, 177, 218);
+}
+.nav__list .nav__link {
+	color: var(--black-2);
+}
+@media only screen and (max-width: 767px){
+	.nav__list .nav__link {
+		color: var(--white-1);
+	}
+	
+
+}
+@media only screen and (max-width: 767px){
+    .want_to_know h1{
+        left: 17%;
+    }
+}

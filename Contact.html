@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="globalStyle.css">
+    <link rel="stylesheet" href="about.css">
+    <!-- aos library css  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+    <!--main+nav start-->
+        <div class="nav">
+            <div class="container">
+              <div class="nav__wrapper">
+                <a href="./index.html" class="logo">
+                  <img src="Images/logo.png" alt="What do you want?">
+                </a>
+                <nav>
+                  <div class="nav__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-menu">
+                      <line x1="3" y1="12" x2="21" y2="12" />
+                      <line x1="3" y1="6" x2="21" y2="6" />
+                      <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
+                  </div>
+                  <div class="nav__bgOverlay"></div>
+                  <ol class="nav__list">
+                    <div class="nav__close">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-x">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                      </svg>
+                    </div>
+                    <div class="nav__list__wrapper">
+        
+                      <li><a class="nav__link" href="Index.html">Home</a></li>
+                      <li><a class="nav__link" href="about.html">About</a></li>
+                      <li><a class="nav__link" href="Project.html">Project</a></li>
+                      <li><a class="nav__link" href="Images.html" >Images</a></li>
+                      <li><a class="nav__link" href="Contact.html">Contact</a></li>
+                      
+                    </div>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+        </div>
+<!--nav end-->
+
+<!--Contact & Inquiry start-->
+<section id="form">
+    <div class="container">
+      <h3 class="form__title">
+        Contact & Inquiry
+      </h3>
+      <div class="form__wrapper">
+        <form name="contact" method="POST">
+          <div class="form__group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="First Name" required>
+          </div>
+          <div class="form__group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="Last Name" required>
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required>
+          </div>
+          <div class="form__group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="Subject" required>
+          </div>
+          <div class="form__group form__group__full">
+            <label for="message">Message</label>
+            <textarea name="Message" id="message" cols="30" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn">Send</button>
+        </form>
+      </div>
+    </div>
+</section>
+<!--Contact & Inquiry end-->
+
+<!--Footer start-->
+<section class="footer_info">
+    <div class="footer_wrappar">
+        <div class="footer_text">
+            <div class="footer_logo">
+                <h3>Logo, website Name</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatum. Debitis nostrum temporibus perferendis nisi.</p>
+            </div>
+            <div class="footer_links">
+                <h3>Links</h3>
+                <ul>
+                  <li><a  href="Index.html">Home</a></li>
+                  <li><a  href="about.html">About</a></li>
+                  <li><a  href="Project.html">Project</a></li>
+                  <li><a  href="Images.html" >Images</a></li>
+                  <li><a  href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_support">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Support Center</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact">
+                <h3>Contact</h3>
+                <p>+880123</p>
+                <p>projectnotsouseless@gamil.com</p>
+                <p>
+                    GEC Circle,
+                    chittagoang,
+                    <br>
+                    Bangladesh
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="copyright">
+    <div class="copyright_info">
+        <p>
+            © copyright 2022, Project not so useless | All rights reserved
+        </p>
+    </div>
+</div>
+<!--Footer end-->
+<!-- aos script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-- custom script -->
+<script src="./main.js"></script>
+</body>
+</html>
